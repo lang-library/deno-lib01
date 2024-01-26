@@ -1,3 +1,3 @@
-import { add2 } from './add2.js'
+import { add3 } from './add3.js'
 
-console.log(add2(11, 22));
+console.log(add3(11, 22, 33));
