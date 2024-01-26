@@ -1,0 +1,52 @@
+{
+  "assets": {
+    "name": "assets",
+    "isDirectory": true,
+    "isFile": false,
+    "isSymlink": false
+  },
+  "assets\\embedded.txt": {
+    "name": "embedded.txt",
+    "isDirectory": false,
+    "isFile": true,
+    "isSymlink": false,
+    "contents": [
+      84,
+      104,
+      105,
+      115,
+      32,
+      105,
+      115,
+      32,
+      101,
+      109,
+      98,
+      101,
+      100,
+      100,
+      101,
+      100,
+      46,
+      116,
+      120,
+      116,
+      13,
+      10,
+      227,
+      131,
+      143,
+      227,
+      131,
+      173,
+      227,
+      131,
+      188,
+      194,
+      169,
+      33,
+      13,
+      10
+    ]
+  }
+}
