@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
-#./assets/embedded.txt
-deno run --allow-read --allow-write \
-    https://deno.land/x/embed/cli.ts \
-    -i assets \
-    -o embed.json
+set -uvx
+set -e
+cd "$(dirname "$0")"
+cwd=$(pwd)
+ts=$(date "+%Y.%m%d.%H%M.%S")
+deno-run ./do-embed.js build
